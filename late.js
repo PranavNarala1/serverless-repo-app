@@ -2,10 +2,10 @@
 
 function running_late(date){
     date = new Date(date);
-    if (data.getHours() >= 22){
+    if (date.getHours() >= 22){
         return "It is late!";
     } else{
-        return 'It is still early!';
+        return "It is still early!";
     }
 }
 
